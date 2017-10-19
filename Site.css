@@ -1,2 +1,89 @@
 ﻿body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navvy{
+    background-color: #1C2833;
+    color: white;
+}
+.jumbotron {
+    padding-bottom: 0px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border:none;
+    background-image: url('Tuscany Village/tuscany-villas-sant-anna.jpg');
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 900px;
+    background-color: #1C2833;
+}
+
+#versilia {
+    background-image: url('Tuscany Village/Versilia.jpg');
+    width: 250px;
+    height: 350px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+
+#winter {
+    width: 350px;
+    height: 300px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.caption {
+    padding-left: 50px;
+}
+
+#modern {
+    width: 350px;
+    height: 300px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#vineyard {
+    width: 350px;
+    height: 300px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*Horizontal thumbnail stuff*/
+#first {
+    border: none;
+}
+
+#second {
+    background-color: #1C2833;
+    border: none;
+    color:white;
+}
+
+#third {
+    border: none;
+}
+
+.page-header {
+    background-color: #1C2833;
+    color: white;
+    padding-bottom: 0px;
+    padding-top:0px;
+    
+    margin-bottom: 0px;
+    margin-top:0px;
+   
 }
