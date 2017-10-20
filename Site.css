@@ -3,87 +3,124 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navvy{
+/*navbar*/
+#navvy {
     background-color: #1C2833;
     color: white;
 }
-.jumbotron {
-    padding-bottom: 0px;
-    padding-top:0px;
-    padding-left:0px;
-    padding-right:0px;
-    margin-bottom: 0px;
-    margin-top:0px;
-    margin-left:0px;
-    margin-right:0px;
-    border:none;
+
+/*top jumbotron*/
+.jumbotron#main{
+    background-color: #1C2833;
     background-image: url('Tuscany Village/tuscany-villas-sant-anna.jpg');
     background-repeat: no-repeat;
-    height: 350px;
-    width: 900px;
-    background-color: #1C2833;
+    width: 100%;
+    height:100%;
+    color:white;
 }
 
 #versilia {
-    background-image: url('Tuscany Village/Versilia.jpg');
-    width: 250px;
-    height: 350px;
-    background-repeat: no-repeat;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;
+    width: 100%;
+    height:350px;
 }
 
+/*Horizontal pics*/
 #winter {
-    width: 350px;
-    height: 300px;
+    width: 100%;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-.caption {
-    padding-left: 50px;
-}
-
 #modern {
-    width: 350px;
-    height: 300px;
+    width: 100%;
     padding-left: 50px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 #vineyard {
-    width: 350px;
-    height: 300px;
+    width: 100%;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-/*Horizontal thumbnail stuff*/
-#first {
-    border: none;
-}
-
-#second {
+#centerRow{
     background-color: #1C2833;
-    border: none;
+}
+#centerText{
     color:white;
+   
 }
 
-#third {
-    border: none;
-}
-
-.page-header {
+/*miscellaneous multi-section effects*/
+.jumbotron.head.text-center {
     background-color: #1C2833;
     color: white;
-    padding-bottom: 0px;
-    padding-top:0px;
-    
-    margin-bottom: 0px;
-    margin-top:0px;
-   
+    padding:20px;
+    margin:0px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.noPadding{
+    padding:0px;
+}
+.noMargins{
+    margin:0px;
+}
+.smallpad{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.lrpad{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/*bottom of page*/
+.footer{
+    background-color: #1C2833;
+    color: white;
+    padding:25px;
+    margin:0px;
+}
+
+#myCarousel{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+
+
+/*Grid Photos*/
+#botleft{
+    width:100%;
+}
+#botright{
+    width:100%;
+}
+#center{
+    width:100%;
+}
+#topright{
+    width:100%;
+}
+#topleft{
+    width:100%;
+}
+/*Grid Text*/
+.col-md-4.noPadding h3{
+    background-color:#1C2833;
+    padding:10px 15px 10px 15px;
+    opacity:0.8;
+    color:white;
+    text-align:center;
 }
